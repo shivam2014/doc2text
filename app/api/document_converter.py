@@ -3,7 +3,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 import os
 import magic
-import PyPDF2
+import pymupdf4llm
 import markdown2
 from datetime import datetime
 import logging
@@ -113,16 +113,10 @@ class DocumentConverter:
 
     @staticmethod
     def convert_pdf(file_path):
+        """Convert PDF to text using PyMuPDF4LLM"""
         try:
-            text = ""
-            with open(file_path, 'rb') as file:
-                pdf_reader = PyPDF2.PdfReader(file)
-                for page in pdf_reader.pages:
-                    extracted_text = page.extract_text()
-                    if extracted_text:
-                        text += extracted_text + "\n\n"
-                    else:
-                        logger.warning(f"Could not extract text from page in {file_path}")
+            # Extract text as markdown which preserves document structure better
+            text = pymupdf4llm.to_markdown(file_path)
             
             if not text.strip():
                 raise ConversionError("Could not extract any text from the PDF file")
@@ -235,7 +229,14 @@ def convert_document():
             'md': converter.convert_md
         }
 
+        # Store the text before cleanup
         converted_text = conversion_method[file_type](temp_path)
+        
+        # Ensure PDF file handles are released
+        if file_type == 'pdf':
+            import gc
+            gc.collect()
+            time.sleep(0.1)  # Give a small delay for file handle cleanup
         
         logger.info(f"Successfully converted {filename}")
         
@@ -265,8 +266,21 @@ def convert_document():
             'error': 'An unexpected error occurred during processing'
         }), 500
     finally:
+        # Attempt file cleanup with retries
         if temp_path and os.path.exists(temp_path):
-            os.remove(temp_path)
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    os.remove(temp_path)
+                    break
+                except PermissionError:
+                    if attempt < max_retries - 1:
+                        time.sleep(0.1 * (attempt + 1))  # Increasing delay between attempts
+                        continue
+                    logger.warning(f"Could not remove temporary file {temp_path} after {max_retries} attempts")
+                except Exception as e:
+                    logger.warning(f"Error removing temporary file {temp_path}: {str(e)}")
+                    break
 
 # Set app start time
 app.start_time = time.time()

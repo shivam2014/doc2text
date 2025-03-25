@@ -1,12 +1,42 @@
 # Document Converter API
 
-A Flask-based API service that converts various document formats into plain text. Supports PDF, DOC, DOCX, ODT, Markdown, and plain text files.
+A Flask-based API service that converts various document formats into text while preserving document structure. Uses PyMuPDF4LLM for enhanced PDF conversion with markdown output. Supports PDF, DOC, DOCX, ODT, Markdown, and plain text files.
 
 ## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
 - uv package manager
+- PyMuPDF4LLM for enhanced PDF text extraction
+- python-magic-bin for file type validation (Windows only)
+- textract for Word document conversion
+
+## Document Conversion
+
+The application now uses PyMuPDF4LLM for PDF processing, which offers several advantages:
+
+- Improved document structure preservation
+- Better handling of multi-column layouts
+- Support for tables and lists
+- Markdown-formatted output
+- Enhanced text extraction quality
+
+### Dependencies
+
+- `pymupdf4llm`: PDF processing and text extraction
+- `flask`: Web framework
+- `flask-cors`: Cross-origin resource sharing
+- `markdown2`: Markdown processing
+- `python-magic`: File type detection
+- `textract`: Document format conversion
+- `reportlab`: PDF creation (testing only)
+
+### Features
+- Enhanced PDF text extraction with preserved document structure
+- Markdown-formatted output for PDFs
+- Robust file handle management with automatic cleanup
+- Automatic retry mechanism for file operations
+- Content sanitization and XSS prevention
 
 ### Setup Virtual Environment
 
@@ -98,7 +128,7 @@ python demo.py tests/test_files/sample.md
 {
     "status": "success",
     "data": {
-        "text": "extracted text content...",
+        "text": "# Document Title\n\nExtracted content with preserved structure...",
         "metadata": {
             "original_filename": "example.pdf",
             "file_type": "pdf",
@@ -136,14 +166,28 @@ python demo.py tests/test_files/sample.md
 ## Limitations
 - Maximum file size: 10MB
 - PDF files must be text-based (scanned PDFs require OCR, which is not supported)
+- PDF output is converted to markdown format for better structure preservation
 - Word documents (.doc, .docx) require `textract` package with proper system dependencies
+- PDF processing may require additional system memory for large documents
+- File cleanup may require multiple attempts on Windows systems due to file locking
 
 ## Development
 
 ### Running Tests
 ```bash
+# Run all tests
 pytest tests/
+
+# Run specific test file
+pytest tests/test_document_converter.py -v
+
+# Run with sample files
+python demo.py tests/test_files/sample.pdf  # Test PDF conversion
+python demo.py tests/test_files/sample.txt  # Test text conversion
+python demo.py tests/test_files/sample.md   # Test markdown conversion
 ```
+
+Note: Sample files are provided in the tests/test_files directory for testing different conversion scenarios. The PDF conversion will output markdown-formatted text that preserves the document's structure.
 
 ### Logging
 Logs are written to `document_converter.log` in the project directory.

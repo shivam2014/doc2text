@@ -239,3 +239,29 @@
 2025-03-25 20:56:20,428 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-03-25 20:56:20,428 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:59:19,778 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 20:59:19,778 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:05:51,851 - document_converter - INFO - Request e66ab007-0939-44f6-ab34-fc7304db606e started
+2025-03-25 21:05:51,858 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 21:05:51,858 - document_converter - INFO - Request e66ab007-0939-44f6-ab34-fc7304db606e completed in 0.01s
+2025-03-25 21:05:51,859 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:05:51] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 21:06:23,197 - document_converter - INFO - Request 0eb6829b-5265-43e2-940f-cb29e67fe5b5 started
+2025-03-25 21:06:23,231 - document_converter - INFO - Successfully converted sample.pdf
+2025-03-25 21:06:23,231 - document_converter - INFO - Request 0eb6829b-5265-43e2-940f-cb29e67fe5b5 completed in 0.03s
+2025-03-25 21:06:23,232 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:06:23] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 21:14:47,491 - document_converter - INFO - Request 64121e48-592a-421d-8b9a-c336d33e84f3 started
+2025-03-25 21:14:47,520 - document_converter - INFO - Successfully converted sample.pdf
+2025-03-25 21:14:47,521 - document_converter - INFO - Request 64121e48-592a-421d-8b9a-c336d33e84f3 completed in 0.03s
+2025-03-25 21:14:47,521 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:14:47] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 21:15:00,628 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 21:15:00,628 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:15:12,445 - document_converter - INFO - Request ab98a725-33a7-41e9-a292-92c6967f41ca started
+2025-03-25 21:15:12,662 - document_converter - INFO - Successfully converted sample.pdf
+2025-03-25 21:15:12,663 - document_converter - INFO - Request ab98a725-33a7-41e9-a292-92c6967f41ca completed in 0.22s
+2025-03-25 21:15:12,663 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:15:12] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 21:27:11,108 - document_converter - INFO - Request 02db63af-0291-4ea2-b2dd-226bda32918d started
+2025-03-25 21:27:11,323 - document_converter - INFO - Successfully converted sample.pdf
+2025-03-25 21:27:11,324 - document_converter - INFO - Request 02db63af-0291-4ea2-b2dd-226bda32918d completed in 0.22s
+2025-03-25 21:27:11,325 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:27:11] "POST /api/v1/convert HTTP/1.1" 200 -
