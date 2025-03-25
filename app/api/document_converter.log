@@ -1,0 +1,18 @@
+2025-03-25 20:31:17,100 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 20:31:17,100 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:31:17,102 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 20:31:17,463 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 20:31:17,467 - werkzeug - INFO -  * Debugger PIN: 444-045-062
+2025-03-25 20:32:02,847 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-25 20:32:02,848 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:32:02,851 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 20:32:03,209 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 20:32:03,214 - werkzeug - INFO -  * Debugger PIN: 444-045-062
+2025-03-25 20:33:08,881 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 20:33:08,882 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:33:08,884 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 20:33:09,236 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 20:33:09,240 - werkzeug - INFO -  * Debugger PIN: 444-045-062

@@ -1,0 +1,241 @@
+2025-03-25 15:42:23,712 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 15:42:23,713 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 15:42:23,716 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 15:42:24,159 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 15:42:24,169 - werkzeug - INFO -  * Debugger PIN: 969-876-456
+2025-03-25 15:43:00,708 - document_converter - INFO - Request 0a81ef17-3be4-41cc-b2be-18c67529a30a started
+2025-03-25 15:43:00,715 - document_converter - INFO - Successfully converted tmp_g7fscvo.txt
+2025-03-25 15:43:00,716 - document_converter - INFO - Request 0a81ef17-3be4-41cc-b2be-18c67529a30a completed in 0.01s
+2025-03-25 15:43:00,717 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:43:00] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 15:43:02,749 - document_converter - INFO - Request 9ef41d8b-e23d-4e0b-960f-378654f950a7 started
+2025-03-25 15:43:02,758 - document_converter - INFO - Successfully converted tmpzo7j6fst.md
+2025-03-25 15:43:02,759 - document_converter - INFO - Request 9ef41d8b-e23d-4e0b-960f-378654f950a7 completed in 0.01s
+2025-03-25 15:43:02,760 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:43:02] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 15:44:55,061 - document_converter - INFO - Request cd3a7991-afa8-45fb-b347-4f1877e8817d started
+2025-03-25 15:44:55,066 - document_converter - INFO - Successfully converted tmps5trrs73.txt
+2025-03-25 15:44:55,067 - document_converter - INFO - Request cd3a7991-afa8-45fb-b347-4f1877e8817d completed in 0.01s
+2025-03-25 15:44:55,067 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:44:55] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 15:44:57,089 - document_converter - INFO - Request de44b471-e79c-43b0-a417-aca3dd8051cc started
+2025-03-25 15:44:57,095 - document_converter - INFO - Successfully converted tmp2u2te5xv.md
+2025-03-25 15:44:57,096 - document_converter - INFO - Request de44b471-e79c-43b0-a417-aca3dd8051cc completed in 0.01s
+2025-03-25 15:44:57,096 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:44:57] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 15:44:59,131 - document_converter - INFO - Request a230111e-9416-45bf-958f-ed2ca77e4c7d started
+2025-03-25 15:44:59,133 - document_converter - WARNING - Unsupported file type: test.unsupported
+2025-03-25 15:44:59,133 - document_converter - INFO - Request a230111e-9416-45bf-958f-ed2ca77e4c7d completed in 0.00s
+2025-03-25 15:44:59,133 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:44:59] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 15:50:11,088 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shiva\\Documents\\DeepSeek_Search\\tools\\api_backends\\latex2text\\app\\api\\document_converter.py', reloading
+2025-03-25 15:50:11,142 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 15:50:11,625 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 15:50:11,635 - werkzeug - INFO -  * Debugger PIN: 969-876-456
+2025-03-25 15:55:00,779 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 15:55:00,780 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 15:55:00,783 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 15:55:01,224 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 15:55:01,232 - werkzeug - INFO -  * Debugger PIN: 969-876-456
+2025-03-25 15:57:11,794 - document_converter - INFO - Request de2e17de-9326-4eaa-9d1d-928f0f57732d started
+2025-03-25 15:57:11,800 - document_converter - INFO - Successfully converted tmp3ku2nke9.txt
+2025-03-25 15:57:11,802 - document_converter - INFO - Request de2e17de-9326-4eaa-9d1d-928f0f57732d completed in 0.01s
+2025-03-25 15:57:11,802 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:57:11] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 15:57:13,831 - document_converter - INFO - Request 32618063-e829-447d-82a0-ac8dd7c97dc7 started
+2025-03-25 15:57:13,840 - document_converter - INFO - Successfully converted tmpv4zi9udb.md
+2025-03-25 15:57:13,841 - document_converter - INFO - Request 32618063-e829-447d-82a0-ac8dd7c97dc7 completed in 0.01s
+2025-03-25 15:57:13,841 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:57:13] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 15:57:15,880 - document_converter - INFO - Request 827b7951-4101-4d72-a2df-90c2e8758828 started
+2025-03-25 15:57:15,881 - document_converter - WARNING - Unsupported file type: test.unsupported
+2025-03-25 15:57:15,881 - document_converter - INFO - Request 827b7951-4101-4d72-a2df-90c2e8758828 completed in 0.00s
+2025-03-25 15:57:15,882 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 15:57:15] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:01:22,655 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shiva\\Documents\\DeepSeek_Search\\tools\\api_backends\\latex2text\\app\\api\\document_converter.py', reloading
+2025-03-25 16:01:22,705 - werkzeug - INFO -  * Restarting with stat
+2025-03-25 16:01:23,156 - werkzeug - WARNING -  * Debugger is active!
+2025-03-25 16:01:23,167 - werkzeug - INFO -  * Debugger PIN: 969-876-456
+2025-03-25 16:02:14,518 - document_converter - INFO - Request e1632499-ed21-408f-b49c-d5e80cf097d9 started
+2025-03-25 16:02:14,525 - document_converter - INFO - Successfully converted tmpqhjtnk3z.txt
+2025-03-25 16:02:14,527 - document_converter - INFO - Request e1632499-ed21-408f-b49c-d5e80cf097d9 completed in 0.01s
+2025-03-25 16:02:14,528 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:14] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:02:16,555 - document_converter - INFO - Request a441378a-1637-43e8-af92-1afebcadad45 started
+2025-03-25 16:02:16,564 - document_converter - INFO - Successfully converted tmpol0cygya.md
+2025-03-25 16:02:16,565 - document_converter - INFO - Request a441378a-1637-43e8-af92-1afebcadad45 completed in 0.01s
+2025-03-25 16:02:16,565 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:16] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:02:18,601 - document_converter - INFO - Request dbde91a7-0226-45b2-a9a2-3e0056203837 started
+2025-03-25 16:02:18,602 - document_converter - WARNING - Unsupported file type: test.unsupported
+2025-03-25 16:02:18,602 - document_converter - INFO - Request dbde91a7-0226-45b2-a9a2-3e0056203837 completed in 0.00s
+2025-03-25 16:02:18,602 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:02:18] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:11:03,337 - document_converter - INFO - Request 2a97f85c-34e9-4664-9ef1-a578de16bdca started
+2025-03-25 16:11:03,370 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:03,371 - document_converter - INFO - Request 2a97f85c-34e9-4664-9ef1-a578de16bdca completed in 0.03s
+2025-03-25 16:11:03,372 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:03] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:05,418 - document_converter - INFO - Request de640462-b784-4199-ba02-ced2397209dd started
+2025-03-25 16:11:05,431 - document_converter - INFO - Successfully converted sample.md
+2025-03-25 16:11:05,432 - document_converter - INFO - Request de640462-b784-4199-ba02-ced2397209dd completed in 0.01s
+2025-03-25 16:11:05,433 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:05] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:07,479 - document_converter - INFO - Request b533b68b-8e00-4ecf-892a-70a38ae678f7 started
+2025-03-25 16:11:07,489 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:11:07,490 - document_converter - INFO - Request b533b68b-8e00-4ecf-892a-70a38ae678f7 completed in 0.01s
+2025-03-25 16:11:07,491 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:07] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:09,554 - document_converter - INFO - Request 8407aa1e-6642-4b45-9150-75ed3e8eeb5a started
+2025-03-25 16:11:09,558 - document_converter - WARNING - File type validation failed: File type mismatch. Expected txt but got inode/x-empty
+2025-03-25 16:11:09,559 - document_converter - INFO - Request 8407aa1e-6642-4b45-9150-75ed3e8eeb5a completed in 0.00s
+2025-03-25 16:11:09,560 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:09] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:11:11,601 - document_converter - INFO - Request e283d275-825b-4a79-abbe-008e1f99d904 started
+2025-03-25 16:11:11,606 - document_converter - WARNING - File type validation failed: File type mismatch. Expected docx but got text/plain
+2025-03-25 16:11:11,607 - document_converter - INFO - Request e283d275-825b-4a79-abbe-008e1f99d904 completed in 0.01s
+2025-03-25 16:11:11,607 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:11] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:11:13,722 - document_converter - INFO - Request c5f48b57-1a48-4740-a005-58b2945c5d05 started
+2025-03-25 16:11:13,727 - document_converter - WARNING - File type validation failed: File type mismatch. Expected txt but got text/html
+2025-03-25 16:11:13,728 - document_converter - INFO - Request c5f48b57-1a48-4740-a005-58b2945c5d05 completed in 0.01s
+2025-03-25 16:11:13,729 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:13] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:11:15,776 - document_converter - INFO - Request 79ec6451-099f-4b73-974f-5300feed69f9 started
+2025-03-25 16:11:15,781 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:11:15,782 - document_converter - INFO - Request 79ec6451-099f-4b73-974f-5300feed69f9 completed in 0.01s
+2025-03-25 16:11:15,782 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:15] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:17,814 - document_converter - INFO - Request 966e87d4-80ca-4f04-a936-cd1973d3d5f7 started
+2025-03-25 16:11:17,842 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:17,843 - document_converter - INFO - Request 966e87d4-80ca-4f04-a936-cd1973d3d5f7 completed in 0.03s
+2025-03-25 16:11:17,843 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:17] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:19,889 - document_converter - INFO - Request eb274e1c-2bbd-4e6c-b456-cc93cdd90419 started
+2025-03-25 16:11:19,917 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:19,918 - document_converter - INFO - Request eb274e1c-2bbd-4e6c-b456-cc93cdd90419 completed in 0.03s
+2025-03-25 16:11:19,918 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:19] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:21,930 - document_converter - INFO - Request 02f61e9e-543d-4110-8da7-35205de5cab0 started
+2025-03-25 16:11:21,963 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:21,964 - document_converter - INFO - Request 02f61e9e-543d-4110-8da7-35205de5cab0 completed in 0.03s
+2025-03-25 16:11:21,964 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:21] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:23,983 - document_converter - INFO - Request a2a3bc76-6a6c-48e9-b641-4bf8e815412a started
+2025-03-25 16:11:24,012 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:24,013 - document_converter - INFO - Request a2a3bc76-6a6c-48e9-b641-4bf8e815412a completed in 0.03s
+2025-03-25 16:11:24,013 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:24] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:26,030 - document_converter - INFO - Request d3aae996-18e6-4358-bf12-c2112e7f2076 started
+2025-03-25 16:11:26,059 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:26,060 - document_converter - INFO - Request d3aae996-18e6-4358-bf12-c2112e7f2076 completed in 0.03s
+2025-03-25 16:11:26,060 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:26] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:28,083 - document_converter - INFO - Request 05c42a4c-0456-4cab-b909-4719143cf3b4 started
+2025-03-25 16:11:28,112 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:28,113 - document_converter - INFO - Request 05c42a4c-0456-4cab-b909-4719143cf3b4 completed in 0.03s
+2025-03-25 16:11:28,113 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:28] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:30,160 - document_converter - INFO - Request 116b1c40-4b08-48ca-a5c3-be9ffb95e701 started
+2025-03-25 16:11:30,189 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:30,190 - document_converter - INFO - Request 116b1c40-4b08-48ca-a5c3-be9ffb95e701 completed in 0.03s
+2025-03-25 16:11:30,191 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:30] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:32,238 - document_converter - INFO - Request 0225f294-24f4-479f-862b-ebdd5ab11963 started
+2025-03-25 16:11:32,268 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:32,269 - document_converter - INFO - Request 0225f294-24f4-479f-862b-ebdd5ab11963 completed in 0.03s
+2025-03-25 16:11:32,269 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:32] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:34,298 - document_converter - INFO - Request 35e96e38-ca79-40a0-9497-147b36cb451e started
+2025-03-25 16:11:34,327 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:34,328 - document_converter - INFO - Request 35e96e38-ca79-40a0-9497-147b36cb451e completed in 0.03s
+2025-03-25 16:11:34,328 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:34] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:36,360 - document_converter - INFO - Request de5ec130-b8e3-4b24-bb75-90284bcc7685 started
+2025-03-25 16:11:36,387 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:11:36,388 - document_converter - INFO - Request de5ec130-b8e3-4b24-bb75-90284bcc7685 completed in 0.03s
+2025-03-25 16:11:36,388 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:36] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:38,438 - document_converter - INFO - Request b39ff523-39ec-47c1-9c72-cf42bf2fdd5c started
+2025-03-25 16:11:38,439 - document_converter - INFO - Request 6292595d-bb68-44fe-af8b-6e2e01f36512 started
+2025-03-25 16:11:38,441 - document_converter - INFO - Request 721bf477-2a71-4e3b-8910-3e074577db0d started
+2025-03-25 16:11:38,447 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:11:38,448 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:11:38,448 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:11:38,448 - document_converter - INFO - Request 721bf477-2a71-4e3b-8910-3e074577db0d completed in 0.01s
+2025-03-25 16:11:38,448 - document_converter - INFO - Request b39ff523-39ec-47c1-9c72-cf42bf2fdd5c completed in 0.01s
+2025-03-25 16:11:38,449 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:38] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:38,449 - document_converter - INFO - Request 6292595d-bb68-44fe-af8b-6e2e01f36512 completed in 0.01s
+2025-03-25 16:11:38,449 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:38] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:11:38,450 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:11:38] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:12:55,700 - document_converter - INFO - Request 2f8fea2e-b796-4a1c-a95a-1be1fbaf33a8 started
+2025-03-25 16:12:55,728 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:12:55,729 - document_converter - INFO - Request 2f8fea2e-b796-4a1c-a95a-1be1fbaf33a8 completed in 0.03s
+2025-03-25 16:12:55,729 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:12:55] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:12:57,782 - document_converter - INFO - Request a4036616-ae5a-4c30-a763-e31c8f567e45 started
+2025-03-25 16:12:57,789 - document_converter - INFO - Successfully converted sample.md
+2025-03-25 16:12:57,790 - document_converter - INFO - Request a4036616-ae5a-4c30-a763-e31c8f567e45 completed in 0.01s
+2025-03-25 16:12:57,790 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:12:57] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:12:59,820 - document_converter - INFO - Request ea471f03-de0e-4d92-bb86-4c8240a0f04a started
+2025-03-25 16:12:59,826 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:12:59,826 - document_converter - INFO - Request ea471f03-de0e-4d92-bb86-4c8240a0f04a completed in 0.01s
+2025-03-25 16:12:59,827 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:12:59] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:01,884 - document_converter - INFO - Request 33081d80-afa2-47bf-9885-d9247b6732eb started
+2025-03-25 16:13:01,887 - document_converter - WARNING - File type validation failed: File type mismatch. Expected txt but got inode/x-empty
+2025-03-25 16:13:01,889 - document_converter - INFO - Request 33081d80-afa2-47bf-9885-d9247b6732eb completed in 0.01s
+2025-03-25 16:13:01,889 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:01] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:13:03,938 - document_converter - INFO - Request 21e65962-3397-4b5a-98ec-e94054b8b5ce started
+2025-03-25 16:13:03,942 - document_converter - WARNING - File type validation failed: File type mismatch. Expected docx but got text/plain
+2025-03-25 16:13:03,944 - document_converter - INFO - Request 21e65962-3397-4b5a-98ec-e94054b8b5ce completed in 0.01s
+2025-03-25 16:13:03,944 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:03] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:13:05,982 - document_converter - INFO - Request 104df318-662e-4f77-8289-0412982bc84e started
+2025-03-25 16:13:05,987 - document_converter - WARNING - No file provided in request
+2025-03-25 16:13:05,987 - document_converter - INFO - Request 104df318-662e-4f77-8289-0412982bc84e completed in 0.00s
+2025-03-25 16:13:05,988 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:05] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:13:08,042 - document_converter - INFO - Request 75472454-64a5-4b84-b530-ea0c727eda48 started
+2025-03-25 16:13:08,043 - document_converter - WARNING - No file provided in request
+2025-03-25 16:13:08,043 - document_converter - INFO - Request 75472454-64a5-4b84-b530-ea0c727eda48 completed in 0.00s
+2025-03-25 16:13:08,043 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:08] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:13:10,081 - document_converter - INFO - Request 6a4a77e7-c2b0-48fa-94c3-14b02c44dbc0 started
+2025-03-25 16:13:10,086 - document_converter - WARNING - File type validation failed: File type mismatch. Expected txt but got text/html
+2025-03-25 16:13:10,087 - document_converter - INFO - Request 6a4a77e7-c2b0-48fa-94c3-14b02c44dbc0 completed in 0.01s
+2025-03-25 16:13:10,087 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:10] "[31m[1mPOST /api/v1/convert HTTP/1.1[0m" 400 -
+2025-03-25 16:13:12,119 - document_converter - INFO - Request ab38daf6-07db-44b3-a31f-ddd79bc0010b started
+2025-03-25 16:13:12,125 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:12,125 - document_converter - INFO - Request ab38daf6-07db-44b3-a31f-ddd79bc0010b completed in 0.01s
+2025-03-25 16:13:12,126 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:12] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:14,162 - document_converter - INFO - Request 9439362e-d488-4a34-bb90-7b0d94887ef6 started
+2025-03-25 16:13:14,190 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:13:14,191 - document_converter - INFO - Request 9439362e-d488-4a34-bb90-7b0d94887ef6 completed in 0.03s
+2025-03-25 16:13:14,192 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:14] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:16,251 - document_converter - INFO - Request dedec486-081b-494f-b159-59339464f9cf started
+2025-03-25 16:13:16,279 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:13:16,280 - document_converter - INFO - Request dedec486-081b-494f-b159-59339464f9cf completed in 0.03s
+2025-03-25 16:13:16,280 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:16] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:18,316 - document_converter - INFO - Request 1ba2d6dc-c664-444c-af3b-47d16de781a9 started
+2025-03-25 16:13:18,345 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:13:18,346 - document_converter - INFO - Request 1ba2d6dc-c664-444c-af3b-47d16de781a9 completed in 0.03s
+2025-03-25 16:13:18,347 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:18] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:20,390 - document_converter - INFO - Request 310ef899-71de-4fe5-a733-facb6cf4dc3f started
+2025-03-25 16:13:20,396 - document_converter - INFO - Successfully converted sample.md
+2025-03-25 16:13:20,397 - document_converter - INFO - Request 310ef899-71de-4fe5-a733-facb6cf4dc3f completed in 0.01s
+2025-03-25 16:13:20,397 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:20] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:22,420 - document_converter - INFO - Request fcf8a18d-62de-4f58-875a-aa95e429ebb5 started
+2025-03-25 16:13:22,427 - document_converter - INFO - Successfully converted sample.md
+2025-03-25 16:13:22,427 - document_converter - INFO - Request fcf8a18d-62de-4f58-875a-aa95e429ebb5 completed in 0.01s
+2025-03-25 16:13:22,428 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:22] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:24,438 - document_converter - INFO - Request 5a204a0a-a5e4-453c-8ca8-90ed1d071f31 started
+2025-03-25 16:13:24,445 - document_converter - INFO - Successfully converted sample.md
+2025-03-25 16:13:24,446 - document_converter - INFO - Request 5a204a0a-a5e4-453c-8ca8-90ed1d071f31 completed in 0.01s
+2025-03-25 16:13:24,447 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:24] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:26,483 - document_converter - INFO - Request b1ebbc4a-bd2a-411e-832f-b6b45606b728 started
+2025-03-25 16:13:26,489 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:26,489 - document_converter - INFO - Request b1ebbc4a-bd2a-411e-832f-b6b45606b728 completed in 0.01s
+2025-03-25 16:13:26,490 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:26] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:28,529 - document_converter - INFO - Request 66cbb70c-a22a-4108-aa77-d33ef1e0f67d started
+2025-03-25 16:13:28,534 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:28,535 - document_converter - INFO - Request 66cbb70c-a22a-4108-aa77-d33ef1e0f67d completed in 0.01s
+2025-03-25 16:13:28,535 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:28] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:30,563 - document_converter - INFO - Request de98e1eb-5308-461e-89eb-d230affa63d7 started
+2025-03-25 16:13:30,569 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:30,569 - document_converter - INFO - Request de98e1eb-5308-461e-89eb-d230affa63d7 completed in 0.01s
+2025-03-25 16:13:30,570 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:30] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:32,601 - document_converter - INFO - Request 79e1d81f-70e7-4b95-8f11-e7ed2b1da7e5 started
+2025-03-25 16:13:32,603 - document_converter - INFO - Request 77ee4d0e-fffe-4727-9329-97c61e776238 started
+2025-03-25 16:13:32,604 - document_converter - INFO - Request 75c97357-99ff-4170-be60-900c8379fffe started
+2025-03-25 16:13:32,610 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:32,610 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:32,611 - document_converter - INFO - Successfully converted sample.txt
+2025-03-25 16:13:32,611 - document_converter - INFO - Request 77ee4d0e-fffe-4727-9329-97c61e776238 completed in 0.01s
+2025-03-25 16:13:32,611 - document_converter - INFO - Request 75c97357-99ff-4170-be60-900c8379fffe completed in 0.01s
+2025-03-25 16:13:32,611 - document_converter - INFO - Request 79e1d81f-70e7-4b95-8f11-e7ed2b1da7e5 completed in 0.01s
+2025-03-25 16:13:32,612 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:32] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:32,612 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:32] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:13:32,613 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:13:32] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 16:15:43,982 - document_converter - INFO - Request a82265fc-e031-45ba-bfb5-4bd0cca11dee started
+2025-03-25 16:15:44,011 - document_converter - INFO - Successfully converted Default_Resume-template.pdf
+2025-03-25 16:15:44,012 - document_converter - INFO - Request a82265fc-e031-45ba-bfb5-4bd0cca11dee completed in 0.03s
+2025-03-25 16:15:44,012 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:15:44] "POST /api/v1/convert HTTP/1.1" 200 -
+2025-03-25 20:51:51,567 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 20:51:51,568 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:56:12,550 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 20:56:12,551 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:56:20,428 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 20:56:20,428 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
